@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>getElementById example - daipho.com</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form__select--size screen__left">
+            <label for="size">Số lượng ô màn hình:</label>
+            <input type="number" 
+            placeholder="Nhập số lượng ô..."
+            name="size"
+            id="input__size"
+            onchange="changeView()">
+        </div>
+        <div class="screen__right">
+            <div class="block__view">
+                <div id="screen__view">
+                    <div class="row">
+                        <div class="square"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
